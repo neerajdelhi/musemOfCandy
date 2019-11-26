@@ -1,0 +1,41 @@
+body{
+    background: #f5d9d5;
+    color:#fff;
+    font-weight:100;
+}
+.navbar .navbar-brand,#mainNavbar ul:hover{
+    color: #ea1c2c!important;
+}
+#mainNavbar ul li a.nav-link:hover{
+    color: #ea1c2c;
+} 
+.navbar-dark{
+    color: #f5d9d5!;
+}
+#mainNavbar{
+    font-family: "nanito", sans-serif;
+}
+#mainContent span, h2{
+    color:#ea1c2c;
+    font-weight: 100;
+}
+#mainNavbar ul.navbar-nav li a {
+    color: white;
+}
+img+p{
+    color: #ea1c2c;
+    font-weight:100;
+}
+.fix{
+    padding-right:0px;
+}
+.scrolled{
+    background:rgb(222,192,222);
+    /* background-color:red; */
+    transition: background 500ms;
+}
+@media only screen and (min-width:992px){
+    section{
+        margin-bottom:100px;
+    }
+}
